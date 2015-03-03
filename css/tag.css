@@ -1,0 +1,44 @@
+
+/* Box */
+.tagedit-list{
+	width:600px;
+	padding:5px;
+	display: block;
+	margin-top: -5px;
+}
+
+/* list style */
+.tagedit-list li{
+	float:left;
+	list-style:none;
+	display:inline;
+	padding:3px;
+	margin-left:8px;
+	font-family: 'Roboto';
+	font-size:14px;
+	background:#ffffff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow:  .5px .5px 5px .5px #959595;
+    box-shadow:  .5px .5px 5px .5px #959595;
+    margin-top:5px;
+}
+.tagedit-list span{
+	margin:0;
+	font-size:15px;
+}
+.tagedit-list li:first-child{
+	background:none;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	-webkit-box-shadow:  none !important;
+    box-shadow: none  !important;
+}
+
+.tagedit-list li a{
+	margin-left:3px;
+	font-size:13px;
+	cursor:pointer;cursor:hand;
+}
